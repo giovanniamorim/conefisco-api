@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "name": "algamoney",
+      "type": "org.sindifisco.config.property.ApiProperty",
+      "sourceType": "org.sindifisco.config.property.ApiProperty"
+    },
+    {
+      "name": "algamoney.seguranca",
+      "type": "org.sindifisco.config.property.ApiProperty$Seguranca",
+      "sourceType": "org.sindifisco.config.property.ApiProperty",
+      "sourceMethod": "getSeguranca()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "algamoney.origem-permitida",
+      "type": "java.lang.String",
+      "sourceType": "org.sindifisco.config.property.ApiProperty",
+      "defaultValue": "https:\/\/www.sindifisco.app.br"
+    },
+    {
+      "name": "algamoney.seguranca.enable-https",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.sindifisco.config.property.ApiProperty$Seguranca",
+      "defaultValue": false
+    }
+  ],
+  "hints": []
+}

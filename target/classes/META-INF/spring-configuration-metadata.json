@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "algamoney",
+      "type": "org.conefisco.config.property.ApiProperty",
+      "sourceType": "org.conefisco.config.property.ApiProperty"
+    },
+    {
+      "name": "algamoney.seguranca",
+      "type": "org.conefisco.config.property.ApiProperty$Seguranca",
+      "sourceType": "org.conefisco.config.property.ApiProperty",
+      "sourceMethod": "getSeguranca()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "algamoney.origem-permitida",
+      "type": "java.lang.String",
+      "sourceType": "org.conefisco.config.property.ApiProperty"
+    },
+    {
+      "name": "algamoney.seguranca.enable-https",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.conefisco.config.property.ApiProperty$Seguranca"
+    }
+  ],
+  "hints": []
+}
